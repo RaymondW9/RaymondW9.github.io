@@ -3,12 +3,13 @@
     font-size: 32px;
     text-align: center;
     font-family: 'Sen', sans-serif;
-    text-shadow: 0 0 5px #FFFFFF;
+    text-shadow: 0 0 1px rgba(255,255,255, 1), 0 0 2px rgba(255,255,255, 1), 
+    0 0 3px rgba(255,255,255, 1), 0 0 4px rgba(255,255,255, 1), 0 0 6px rgba(255,255,255, 1);
     text-decoration: none;
 }
 
 .header-links:hover {
-    color: #A9A9A9;
+    color: #4169E1;
 }
 
 .background1 {
@@ -66,12 +67,12 @@
     bottom: 10px;
     left: 10px;
     font-size: 32px;
-    color: #191970;
+    color: #FFFFFF;
     font-family: 'Sen', sans-serif;
-    text-shadow: 0 0 5px #FFFFFF;
+    text-shadow: 0 0 3px #000000, 0 0 5px #0000FF;
     text-decoration: none;
 }
 
 .bottom-link:hover {
-    color: #A9A9A9;
+    color: #4169E1;
 }
