@@ -1,14 +1,14 @@
 .header-links {
-  color: #191970;
-  font-size: 32px;
-  text-align: center;
-  font-family: 'Sen', sans-serif;
-  text-shadow: 0 0 5px #FFFFFF;
-  text-decoration: none;
+    color: #191970;
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Sen', sans-serif;
+    text-shadow: 0 0 5px #FFFFFF;
+    text-decoration: none;
 }
 
 .header-links:hover {
-  color: #A9A9A9;
+    color: #A9A9A9;
 }
 
 .background1 {
@@ -59,4 +59,19 @@
     100% {
         background-image: url("images/img1.png");
     }
+}
+
+.bottom-link {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-size: 32px;
+    color: #191970;
+    font-family: 'Sen', sans-serif;
+    text-shadow: 0 0 5px #FFFFFF;
+    text-decoration: none;
+}
+
+.bottom-link:hover {
+    color: #A9A9A9;
 }
