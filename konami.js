@@ -18,5 +18,5 @@ document.addEventListener('keydown', function(e) {
 
 function success() {
   alert('Congratulations');
-  window.open('https://www.linkedin.com/in/raymond-wang1/');
+  window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
 }

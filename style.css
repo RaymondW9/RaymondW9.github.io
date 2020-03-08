@@ -26,3 +26,30 @@
     color: #000;
     font-size: 48px;
 }
+
+#SLIDE_BG {
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBg 8s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-image: url('images/img1.png');
+}
+
+@keyframes slideBg {
+    0% {
+        background-image: url("images/img1.png");
+    }
+    25% {
+        background-image: url("images/img2.png");
+    }
+    50% {
+        background-image: url("images/img3.png");
+    }
+    75% {
+        background-image: url("images/img4.png");
+    }
+    100% {
+        background-image: url("images/img1.png");
+    }
+}
