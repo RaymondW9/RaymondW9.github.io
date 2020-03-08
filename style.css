@@ -27,16 +27,17 @@
     font-size: 48px;
 }
 
-#SLIDE_BG {
+#slideshow {
     background-size: cover;
     background-repeat: no-repeat;
     backface-visibility: hidden;
-    animation: slideBg 8s linear infinite 0s;
+    animation: slide 8s linear infinite 0s;
     animation-timing-function: ease-in-out;
     background-image: url('images/img1.png');
+    min-height: 100vh;
 }
 
-@keyframes slideBg {
+@keyframes slide {
     0% {
         background-image: url("images/img1.png");
     }
