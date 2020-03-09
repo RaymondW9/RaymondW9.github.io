@@ -12,8 +12,21 @@
     color: #4169E1;
 }
 
+/*homepage background*/
 .background1 {
     background: url("images/img1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+}
+
+/*about page background*/
+.background3 {
+    background: url("images/aboutbg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
     background-size: cover;
 }
 
@@ -69,10 +82,46 @@
     font-size: 32px;
     color: #FFFFFF;
     font-family: 'Sen', sans-serif;
-    text-shadow: 0 0 3px #000000, 0 0 5px #0000FF;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
     text-decoration: none;
 }
 
 .bottom-link:hover {
-    color: #4169E1;
+    color: #8f8f8f;
+}
+
+.contact-header {
+    margin-top: 10vh;
+    color: #a30000;
+    font-size: 32px;
+    font-family: 'Sen', sans-serif;
+    text-shadow: 0 0 5px #fbff87;
+
+}
+
+.contact-info {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.contact-icons {
+    width: 50px;
+    height: 50px;
+}
+
+.text-box {
+    background: rgba(255, 255, 135, 0.3);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 100%;
+}
+
+.contact-links {
+    color: #000000;
+    text-decoration: none;
+}
+
+.contact-links:hover {
+    color: #8f8f8f;
 }
