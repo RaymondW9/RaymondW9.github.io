@@ -1,20 +1,37 @@
-.header-links {
-    color: #191970;
-    font-size: 32px;
-    text-align: center;
-    font-family: 'Sen', sans-serif;
-    text-shadow: 0 0 1px rgba(255,255,255, 1), 0 0 2px rgba(255,255,255, 1), 
-    0 0 3px rgba(255,255,255, 1), 0 0 4px rgba(255,255,255, 1), 0 0 6px rgba(255,255,255, 1);
-    text-decoration: none;
+.navbar {
+  background-color: rgba(60, 60, 60, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
 }
 
-.header-links:hover {
-    color: #4169E1;
+.navbar a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  color: #b5b5b5;
+}
+
+.navbar a.leftnav {
+    float: left;
+    color: white;
+}
+
+.navbar a.leftnav:hover {
+    color: #b5b5b5;
 }
 
 /*homepage background*/
 .background1 {
-    background: url("images/img1.png");
+    background: url("images/background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
@@ -41,7 +58,7 @@
 .header {
     margin-top: 10vh;
     color: #FFFFFF;
-    font-size: 48px;
+    font-size: 7vh; /*48px*/
     font-family: 'Oxanium', cursive;
     text-shadow: 0 0 3px #000000, 0 0 5px #0000FF;
 
@@ -73,55 +90,4 @@
     100% {
         background-image: url("images/img1.png");
     }
-}
-
-.bottom-link {
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
-    font-size: 32px;
-    color: #FFFFFF;
-    font-family: 'Sen', sans-serif;
-    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
-    text-decoration: none;
-}
-
-.bottom-link:hover {
-    color: #8f8f8f;
-}
-
-.contact-header {
-    margin-top: 10vh;
-    color: #a30000;
-    font-size: 32px;
-    font-family: 'Sen', sans-serif;
-    text-shadow: 0 0 5px #fbff87;
-
-}
-
-.contact-info {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-}
-
-.contact-icons {
-    width: 50px;
-    height: 50px;
-}
-
-.text-box {
-    background: rgba(255, 255, 135, 0.3);
-    padding-top: 1px;
-    padding-bottom: 1px;
-    width: 100%;
-}
-
-.contact-links {
-    color: #000000;
-    text-decoration: none;
-}
-
-.contact-links:hover {
-    color: #8f8f8f;
 }
