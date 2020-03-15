@@ -24,13 +24,15 @@
 	<!-- Side Bar -->
 	<div class="sidebar">
 		<a href="#aboutme">About Me</a>
-		<br><br>
+		<br>
 		<a href="#experience">Experience</a>
-		<br><br>
+		<br>
 		<a href="#education">Education</a>
-		<br><br>
+		<br>
 		<a href="#activities">Activities</a>
 	</div>
+
+	<div class="borders"></div>
 
 	<!-- Page Heading -->
 	<div id="aboutme" class="navbar">
@@ -42,43 +44,57 @@
 
 	<!-- Typing Effect -->
 	<div class="typing">
-	    <h1>Raymond Wang</h1>
-	    <p>| New York, NY | raymond.wang@stern.nyu.edu |</p>
+		<h1>Raymond Wang</h1>
+		<p>Hi there, thanks for visiting! I'm a junior at NYU Stern studying finance and data science. I've dabbled in a wide range of topics, and I love solving difficult problems. Check out my experiences below. Feel free to reach out to me if you'd like to connect.</p>
 	</div>
 
 	<script>
-	  /*Van Huynh*/
+	  //Van Huynh
 	    function typeEffect(element, speed) {
-	      var text = element.innerHTML;
-	      element.innerHTML = "";
+		    var text = element.innerHTML;
+		    element.innerHTML = "";
 
-	      var i = 0;
-	      var timer = setInterval(function() {
-	        if (i < text.length) {
-	          element.append(text.charAt(i));
-	          i++;
-	        } else {
-	          clearInterval(timer);
-	        }
-	      }, speed);
-	    }
+		    var i = 0;
+		    var timer = setInterval(function() {
+		    	if (i < text.length) {
+		    		element.append(text.charAt(i));
+		    		i++;
+				} else {
+		    		clearInterval(timer);
+		    	}
+			}, speed);
+		}
 
-	    // application
-	    var speed = 100;
+	    //typing speed of the header
+	    var headerSpeed = 100;
+	    //typing speed of the body
+	    var speed = 70;
 	    var h1 = document.querySelector("h1");
 	    var p = document.querySelector("p");
-	    var delay = h1.innerHTML.length * speed + speed;
+	    var delay = h1.innerHTML.length * headerSpeed + speed;
 
 	    // type affect to header
-	    typeEffect(h1, speed);
+	    typeEffect(h1, headerSpeed);
 
 	    // type affect to body
 	    setTimeout(function() {
-	      p.style.display = "inline-block";
-	      typeEffect(p, speed);
+			p.style.display = "inline-block";
+			typeEffect(p, speed);
 	    }, delay);
 
 	</script>
+
+	<div class="contact-logos">
+		<a href="https://www.linkedin.com/in/raymond-wang1/">
+			<img src="images/githublogo.png">
+		</a>
+		<a href="mailto:raymond.wang@stern.nyu.edu">
+			<img src="images/maillogo.png">
+		</a>
+		<a href="https://www.linkedin.com/in/raymond-wang1/">
+			<img src="images/linkedinlogo.png">
+		</a>
+	</div>
 
 	<div id="experience">
 	</div>

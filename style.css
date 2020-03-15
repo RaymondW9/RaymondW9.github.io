@@ -122,17 +122,36 @@ p {
 }
 
 .typing {
-    position: absolute;
+    position: relative;
     font-family: 'Varela Round', sans-serif;
     left: 30vw;
-    top: 15vh;
-    width: 70vw;
+    top: 20vh;
+    width: 60vw;
 }
 
 .typing p {
     font-size: 20px;
     color: #999999;
-    width: 70vw;
+    width: 60vw;
+    line-height: 30px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+}
+
+.contact-logos {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.contact-logos img {
+    width: 8vh;
+    height: 8vh;
+    padding-left: 2vw;
+}
+
+.contact-logos a {
+    text-decoration: none;
 }
 
 /*about page sidebar*/
@@ -146,14 +165,29 @@ p {
 }
 
 .sidebar a {
-    color: white;
-    text-align: center;
-    padding: 0px 3vw;
+    position: relative;
+    padding: 0 3vw;
+    color: #FFFFFF;
     text-decoration: none;
     font: 3vh 'Open Sans', Impact;
     font-weight: bold;
-    position: relative;
     top: 15vh;
+    line-height: 10vh;
+}
+
+.sidebar a:hover {
+    color: #b5b5b5;
+}
+
+.borders {
+    position: fixed;
+    bottom: 5vh;
+    left: 14vw;
+    width: 3vw;
+    height: 3vh;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+    z-index: 1;
 }
 
 #experience {
