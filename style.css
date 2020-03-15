@@ -1,7 +1,7 @@
 /*navigation bar*/
 .navbar {
   background-color: rgba(60, 60, 60, 0.5);
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   width: 100vw;
@@ -102,4 +102,100 @@
   left: 0;
   right: 0;
   z-index: -1;
+}
+
+/*about page - typing effect*/
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+  font-size: 30pt;
+  margin-bottom: 15px;
+}
+
+p {
+  text-align: left;
+  margin: 0;
+  font-size: 10pt;
+  font-weight: 900;
+  width: 50%;
+  display: none;
+}
+
+.typing {
+    position: absolute;
+    font-family: 'Varela Round', sans-serif;
+    left: 30vw;
+    top: 15vh;
+    width: 70vw;
+}
+
+.typing p {
+    font-size: 20px;
+    color: #999999;
+    width: 70vw;
+}
+
+/*about page sidebar*/
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 20vw;
+    background: #000000;
+}
+
+.sidebar a {
+    color: white;
+    text-align: center;
+    padding: 0px 3vw;
+    text-decoration: none;
+    font: 3vh 'Open Sans', Impact;
+    font-weight: bold;
+    position: relative;
+    top: 15vh;
+}
+
+#experience {
+    position: absolute;
+    left: 0;
+    top: 100vh;
+    width: 100vw;
+    height: 100vh;
+    background: #222222;
+    z-index: -1;
+}
+
+#education {
+    position: absolute;
+    left: 0;
+    top: 200vh;
+    width: 100vw;
+    height: 100vh;
+    background: #FFFFFF;
+    z-index: -1;
+}
+
+#activities {
+    position: absolute;
+    left: 0;
+    top: 300vh;
+    width: 100vw;
+    height: 100vh;
+    background: #222222;
+    z-index: -1;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #85c0ff;
+  border-radius: 5px;
 }

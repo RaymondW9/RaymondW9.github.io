@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>About</title>
+	<meta content="width=device-width, initial-scale=1.0">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Sen|Oxanium|Open+Sans|Varela+Round&display=swap" rel="stylesheet">
+
+ 	<!-- Favicons -->
+  	<link href="images/pageicon.png" rel="icon">
+
+ 	<!-- CSS File -->
+ 	<link href="style.css" rel="stylesheet">
+
+ 	<!-- Easter Egg -->
+ 	<script src="konami.js"></script>
+</head>
+
+<body>
+
+	<!-- Side Bar -->
+	<div class="sidebar">
+		<a href="#aboutme">About Me</a>
+		<br><br>
+		<a href="#experience">Experience</a>
+		<br><br>
+		<a href="#education">Education</a>
+		<br><br>
+		<a href="#activities">Activities</a>
+	</div>
+
+	<!-- Page Heading -->
+	<div id="aboutme" class="navbar">
+		<a href="mailto:raymond.wang@stern.nyu.edu">Contact</a>
+		<a href="gallery.html">Gallery</a>
+		<a class="active" href="gallery.html">About</a>
+		<a class="home" href="index.html">Home</a>
+	</div>
+
+	<!-- Typing Effect -->
+	<div class="typing">
+	    <h1>Raymond Wang</h1>
+	    <p>| New York, NY | raymond.wang@stern.nyu.edu |</p>
+	</div>
+
+	<script>
+	  /*Van Huynh*/
+	    function typeEffect(element, speed) {
+	      var text = element.innerHTML;
+	      element.innerHTML = "";
+
+	      var i = 0;
+	      var timer = setInterval(function() {
+	        if (i < text.length) {
+	          element.append(text.charAt(i));
+	          i++;
+	        } else {
+	          clearInterval(timer);
+	        }
+	      }, speed);
+	    }
+
+	    // application
+	    var speed = 100;
+	    var h1 = document.querySelector("h1");
+	    var p = document.querySelector("p");
+	    var delay = h1.innerHTML.length * speed + speed;
+
+	    // type affect to header
+	    typeEffect(h1, speed);
+
+	    // type affect to body
+	    setTimeout(function() {
+	      p.style.display = "inline-block";
+	      typeEffect(p, speed);
+	    }, delay);
+
+	</script>
+
+	<div id="experience">
+	</div>
+
+	<div id="education">
+	</div>
+
+	<div id="activities">
+	</div>
+
+</body>
+
+</html>
