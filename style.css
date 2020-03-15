@@ -130,11 +130,11 @@ p {
 }
 
 .typing p {
-    font-size: 20px;
+    font-size: 3vh;
     color: #999999;
     width: 60vw;
     line-height: 30px;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #6e6e6e;
     padding-bottom: 10px;
 }
 
@@ -179,7 +179,7 @@ p {
     color: #b5b5b5;
 }
 
-.borders {
+.bottomrightborders {
     position: fixed;
     bottom: 5vh;
     left: 14vw;
@@ -187,6 +187,17 @@ p {
     height: 3vh;
     border-bottom: 4px solid white;
     border-right: 4px solid white;
+    z-index: 1;
+}
+
+.topleftborders {
+    position: fixed;
+    top: 10vh;
+    left: 2vw;
+    width: 3vw;
+    height: 3vh;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
     z-index: 1;
 }
 
