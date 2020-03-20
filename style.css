@@ -56,6 +56,7 @@
     height: 8vh;
 }
 
+/*gallery header*/
 .header {
     position: relative;
     top: 40vh;
@@ -66,7 +67,7 @@
     text-shadow: 0 0 3px #000000, 0 0 5px #0000FF;
 }
 
-/* fade background in and out */
+/*fade background in and out - unused*/
 #slideshow {
     background-size: cover;
     background-repeat: no-repeat;
@@ -133,9 +134,13 @@ p {
     font-size: 3vh;
     color: #999999;
     width: 60vw;
-    line-height: 30px;
+    line-height: 5vh;
     border-bottom: 2px solid #6e6e6e;
     padding-bottom: 10px;
+}
+
+.typing h1 {
+    font-size: 5.7vh;
 }
 
 .contact-logos {
@@ -208,7 +213,51 @@ p {
     width: 100vw;
     height: 100vh;
     background: #222222;
+    font-family: 'Varela Round', sans-serif;
     z-index: -1;
+}
+
+.lightheader {
+    color: white;
+    position: absolute;
+    left: 25vw;
+    top: 5vh;
+    font-size: 5.7vh;
+}
+
+.lightsection {
+    color: white;
+    position: relative;
+    left: 25vw;
+    top: 20vh;
+    font-size: 4vh;
+}
+
+.lightsection img {
+    width: 7vh;
+    height: 7vh;
+    vertical-align: middle;
+    padding-right: 15px;
+}
+
+.lightsection div {
+    position: relative;
+    font-size: 3vh;
+    font-style: italic;
+    left: 10vh;
+    width: 60vw;
+}
+
+.lightsection a {
+    float: right;
+    width: 50vw;
+    font-size: 2.5vh;
+    color: #ff9b94;
+}
+
+.lightsection ul {
+    font-size: 2vh;
+    color: #bababa;
 }
 
 #education {
@@ -218,6 +267,7 @@ p {
     width: 100vw;
     height: 100vh;
     background: #FFFFFF;
+    font-family: 'Varela Round', sans-serif;
     z-index: -1;
 }
 
@@ -228,6 +278,7 @@ p {
     width: 100vw;
     height: 100vh;
     background: #222222;
+    font-family: 'Varela Round', sans-serif;
     z-index: -1;
 }
 
@@ -241,6 +292,6 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #85c0ff;
+  background-color: #6e6e6e;
   border-radius: 5px;
 }

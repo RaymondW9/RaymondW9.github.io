@@ -39,14 +39,14 @@
 	<div id="aboutme" class="navbar">
 		<a href="mailto:raymond.wang@stern.nyu.edu">Contact</a>
 		<a href="gallery.html">Gallery</a>
-		<a class="active" href="gallery.html">About</a>
+		<a class="active">About</a>
 		<a class="home" href="index.html">Home</a>
 	</div>
 
 	<!-- Typing Effect -->
 	<div class="typing">
 		<h1>Raymond Wang</h1>
-		<p>Hi there, thanks for visiting! I'm a junior at NYU Stern studying finance and data science. I've dabbled in a wide range of topics, and I love solving difficult problems. Check out my experiences below. Feel free to reach out to me if you'd like to connect.</p>
+		<p>Hi there, thanks for visiting my site! I'm a junior at NYU Stern studying finance and data science. You can check out the rest of my experiences below. Feel free to reach out to me if you'd like to connect.</p>
 	</div>
 
 	<script>
@@ -67,12 +67,12 @@
 		}
 
 	    //typing speed of the header
-	    var headerSpeed = 100;
+	    var headerSpeed = 80;
 	    //typing speed of the body
-	    var speed = 70;
+	    var speed = 40;
 	    var h1 = document.querySelector("h1");
 	    var p = document.querySelector("p");
-	    var delay = h1.innerHTML.length * headerSpeed + speed;
+	    var delay = h1.innerHTML.length * headerSpeed + headerSpeed;
 
 	    // type affect to header
 	    typeEffect(h1, headerSpeed);
@@ -86,7 +86,7 @@
 	</script>
 
 	<div class="contact-logos">
-		<a href="https://www.linkedin.com/in/raymond-wang1/">
+		<a href="https://github.com/RaymondW9">
 			<img src="images/githublogo.png">
 		</a>
 		<a href="mailto:raymond.wang@stern.nyu.edu">
@@ -98,6 +98,37 @@
 	</div>
 
 	<div id="experience">
+		<h1 class="lightheader">Experience</h1>
+		<div class="lightsection">
+			<img src="images/twosigma.png">
+			Two Sigma Securities
+			<a>Apr 2019 - Aug 2019</a>
+			<br>
+			<div>
+				Finance Intern
+				<ul>Last summer, I joined the Corporate team of Two Sigma Securities, the high frequency broker-dealer division of Two Sigma. I performed daily and monthly account reconciliations, and initiated and monitored monthly transactions. I also worked with the engineering, operations, A/P, and trading teams on a wide range of ad-hoc projects.</ul>
+			</div>
+		</div>
+		<div class="lightsection">
+			<img src="images/fresenius.png">
+			Fresenius Medical Care
+			<a>Sep 2018 - Nov 2018</a>
+			<br>
+			<div>
+				Corporate Planning Analyst
+				<ul>While studying abroad in Shanghai, I worked on the Corporate Development team at Fresenius, the world's largest kidney healthcare company. I performed research on China's healthcare market to identify opportunities within new market segments, ultimately focusing on the rehabilitation industry.</ul>
+			</div>
+		</div>
+		<div class="lightsection">
+			<img src="images/galileo.png">
+			Galileo
+			<a>Feb 2018 - Jul 2018</a>
+			<br>
+			<div>
+				Business Operations Intern
+				<ul>During my freshman year, I interned on the Product and Operations team at Galileo, a software technology startup working on improving and increasing access to healthcare. I collected, organized, and analyzed healthcare data, conducted qualitative research, and created visualizations of my findings.</ul>
+			</div>
+		</div>
 	</div>
 
 	<div id="education">
