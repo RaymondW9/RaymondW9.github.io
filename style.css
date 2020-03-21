@@ -177,6 +177,7 @@ p {
     font: 3vh 'Open Sans', Impact;
     font-weight: bold;
     top: 15vh;
+    left: 0.25vw;
     line-height: 10vh;
 }
 
