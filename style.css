@@ -106,29 +106,14 @@
 }
 
 /*about page - typing effect*/
-h1 {
-  text-transform: uppercase;
-  letter-spacing: 1pt;
-  font-size: 30pt;
-  margin-bottom: 15px;
-}
-
-p {
-  text-align: left;
-  margin: 0;
-  font-size: 10pt;
-  font-weight: 900;
-  width: 50%;
-  display: none;
-}
-
 .typing {
-    position: relative;
+    position: absolute;
     font-family: 'Varela Round', sans-serif;
     left: 30vw;
     top: 20vh;
     width: 60vw;
     height: 100vh;
+    margin: 0;
 }
 
 .typing p {
@@ -138,16 +123,25 @@ p {
     line-height: 5vh;
     border-bottom: 2px solid #6e6e6e;
     padding-bottom: 10px;
+    margin: 0;
+    text-align: left;
+    font-weight: 700;
+    display: none;
 }
 
 .typing h1 {
     font-size: 5.7vh;
+    width: 60vw;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    margin-bottom: 15px;
 }
 
 .contact-logos {
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: 1vw;
+    right: 1vw;
 }
 
 .contact-logos img {
@@ -158,6 +152,10 @@ p {
 
 .contact-logos a {
     text-decoration: none;
+}
+
+.spacing {
+    height: 100vh;
 }
 
 /*about page sidebar*/

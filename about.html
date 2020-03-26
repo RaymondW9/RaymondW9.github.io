@@ -80,13 +80,18 @@
 	    // type affect to header
 	    typeEffect(h1, headerSpeed);
 
+	    var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
 	    // type affect to body
 	    setTimeout(function() {
-			p.style.display = "inline-block";
-			typeEffect(p, speed);
+	    	if (viewportWidth > 700) {
+				p.style.display = "inline-block";
+				typeEffect(p, speed);
+			}
 	    }, delay);
 
 	</script>
+
+	<div class="spacing"></div>
 
 	<div class="contact-logos">
 		<a href="https://github.com/RaymondW9">
@@ -198,15 +203,15 @@
 				<div class="skillname" style="background: #2c77bf;"><span>HTML</span></div>
 				<div class="skillbar-bar" style="background: #2c77bf;"></div>
 			</div>
-			<div class="skillbar" data-percent="80%">
+			<div class="skillbar" data-percent="70%">
 				<div class="skillname" style="background: #1868b5;"><span>Java</span></div>
 				<div class="skillbar-bar" style="background: #1868b5;"></div>
 			</div>
-			<div class="skillbar" data-percent="70%">
+			<div class="skillbar" data-percent="65%">
 				<div class="skillname" style="background: #0c5ead;"><span>Python</span></div>
 				<div class="skillbar-bar" style="background: #0c5ead;"></div>
 			</div>
-			<div class="skillbar" data-percent="45%">
+			<div class="skillbar" data-percent="35%">
 				<div class="skillname" style="background: #00519e;"><span>SQL</span></div>
 				<div class="skillbar-bar" style="background: #00519e;"></div>
 			</div>
@@ -231,7 +236,7 @@
 				<div class="skillname" style="background: #ad2f2f;"><span>Public Speaking</span></div>
 				<div class="skillbar-bar" style="background: #ad2f2f;"></div>
 			</div>
-			<div class="skillbar" data-percent="45%">
+			<div class="skillbar" data-percent="35%">
 				<div class="skillname" style="background: #ad2121;"><span>Tableau</span></div>
 				<div class="skillbar-bar" style="background: #ad2121;"></div>
 			</div>
