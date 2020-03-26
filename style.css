@@ -179,6 +179,7 @@ p {
     font-weight: bold;
     top: 15vh;
     left: 0.25vw;
+    width: 17vw;
     line-height: 10vh;
 }
 
@@ -213,52 +214,28 @@ p {
     left: 0;
     top: 0;
     width: 100vw;
-    min-height: 100vh;
     font-family: 'Varela Round', sans-serif;
     z-index: -1;
 }
 
-.lightheader {
-    color: white;
-    position: absolute;
-    left: 25vw;
-    top: 5vh;
-    font-size: 5.7vh;
-}
-
-.lightsection {
-    color: white;
+#education {
+    padding-top: 10vh;
     position: relative;
-    left: 25vw;
-    top: 20vh;
-    font-size: 4vh;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    font-family: 'Varela Round', sans-serif;
+    z-index: -1;
 }
 
-.lightsection img {
-    width: 7vh;
-    height: 7vh;
-    vertical-align: middle;
-    padding-right: 15px;
-
-}
-.lightsection div {
+#skills {
+    padding-top: 10vh;
     position: relative;
-    font-size: 3vh;
-    font-style: italic;
-    left: 10vh;
-    width: 55vw;
-}
-
-.lightsection a {
-    float: right;
-    width: 50vw;
-    font-size: 2.5vh;
-    color: #ff9b94;
-}
-
-.lightsection ul {
-    font-size: 2vh;
-    color: #bababa;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    font-family: 'Varela Round', sans-serif;
+    z-index: -1;
 }
 
 body {
@@ -307,7 +284,7 @@ body {
     font-size: 3vh;
     font-style: italic;
     left: 5vw;
-    width: 60vw;
+    width: 50vw;
     padding-bottom: 1vh;
 }
 
@@ -329,5 +306,45 @@ body {
 
 .aboutsection ul {
     font-size: 2vh;
+    color: #707070;
+}
+
+/*skill bars*/
+.skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 2vh;
+    left: 0vw;
+    width: 65vw;
+    background: #d1d1d1;
+    height: 4vh;
+}
+
+.skillname {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 2vh;
+    color: white;
+}
+
+.skillname span {
+    display: block;
+    padding: 0 20px;
+    height: 4vh;
+    line-height: 4vh;
+}
+
+.skillbar-bar {
+    height: 4vh;
+    width: 0px;
+    float: left;
+}
+
+.hobbies {
+    width: 65vw;
+    padding-bottom: 5vh;
+    font-size: 3vh;
     color: #707070;
 }
