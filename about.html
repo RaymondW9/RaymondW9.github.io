@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>About</title>
-	<meta content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0">
 
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Sen|Oxanium|Open+Sans|Varela+Round&display=swap" rel="stylesheet">
@@ -80,13 +80,10 @@
 	    // type affect to header
 	    typeEffect(h1, headerSpeed);
 
-	    var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
 	    // type affect to body
 	    setTimeout(function() {
-	    	if (viewportWidth > 700) {
-				p.style.display = "inline-block";
-				typeEffect(p, speed);
-			}
+			p.style.display = "inline-block";
+			typeEffect(p, speed);
 	    }, delay);
 
 	</script>

@@ -177,7 +177,7 @@
     font-weight: bold;
     top: 15vh;
     left: 0.25vw;
-    width: 0;
+    width: 20vw;
     line-height: 10vh;
 }
 
@@ -205,12 +205,6 @@
     border-top: 4px solid white;
     border-left: 4px solid white;
     z-index: 1;
-}
-
-@media only screen and (min-device-width: 768px) {
-    .sidebar {
-        width: 17vw;
-    }
 }
 
 #experience {
@@ -351,4 +345,31 @@ body {
     padding-bottom: 5vh;
     font-size: 3vh;
     color: #707070;
+}
+
+@media only screen and (max-device-width: 768px) {
+    .sidebar {
+        width: 0vw;
+    }
+    .sidebar a {
+        display: none;
+    }
+    .bottomrightborders {
+        display: none;
+    }
+    .topleftborders {
+        display: none;
+    }
+    .typing {
+        left: 5vw;
+    }
+    .typing p {
+        font-size: 0;
+    }
+    .aboutheader {
+        left: 5vw;
+    }
+    .aboutsection {
+        left: 5vw;
+    }
 }
