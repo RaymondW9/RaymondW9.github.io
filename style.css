@@ -347,7 +347,7 @@ body {
     color: #707070;
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 767px) {
     .sidebar {
         width: 0vw;
     }
@@ -364,12 +364,24 @@ body {
         left: 5vw;
     }
     .typing p {
-        font-size: 0;
+        line-height: 5vw;
+        font-size: 4vw;
     }
     .aboutheader {
         left: 5vw;
     }
     .aboutsection {
         left: 5vw;
+        width: 85vw;
+    }
+    .aboutsection a {
+        float: left;
+        width: 80vw;
+    }
+    .title {
+        width: 80vw;
+    }
+    .navbar a {
+        font-size: 4vw;
     }
 }
