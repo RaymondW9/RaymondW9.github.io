@@ -1,29 +1,30 @@
 /*navigation bar*/
 .navbar {
-  background-color: rgba(60, 60, 60, 0.5);
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100vw;
+    background-color: #f5f5f5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    box-shadow: 0px 2px 4px black;
 }
 
 .navbar a {
-  float: right;
-  color: white;
-  text-align: center;
-  padding: 15px 20px;
-  text-decoration: none;
-  font: 3vh 'Open Sans', Impact;
-  font-weight: bold;
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font: 3vh 'Open Sans', Impact;
+    font-weight: bold;
 }
 
 .navbar a:hover {
-  color: #b5b5b5;
+    color: #b5b5b5;
 }
 
 .navbar a.home {
     float: left;
-    color: white;
+    color: black;
 }
 
 .navbar a.home:hover {
@@ -46,6 +47,14 @@
     background-attachment: fixed;
     background-position: top;
     background-size: cover;
+}
+
+.signature {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 20vh;
 }
 
 .social-media {
@@ -348,6 +357,10 @@ body {
 }
 
 @media only screen and (max-device-width: 767px) {
+    .signature {
+    width: 100%;
+    margin-top: 25vh;
+    }
     .sidebar {
         width: 0vw;
     }
@@ -369,6 +382,7 @@ body {
     }
     .aboutheader {
         left: 5vw;
+        width: 85vw;
     }
     .aboutsection {
         left: 5vw;
