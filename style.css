@@ -19,7 +19,7 @@
 }
 
 .navbar a:hover {
-    color: #b5b5b5;
+    color: #8c8c8c;
 }
 
 .navbar a.home {
@@ -28,16 +28,16 @@
 }
 
 .navbar a.home:hover {
-    color: #b5b5b5;
+    color: #8c8c8c;
 }
 
 .navbar a.activehome {
     float: left;
-    color: #b5b5b5;
+    color: #8c8c8c;
 }
 
 .navbar a.active {
-    color: #b5b5b5;
+    color: #8c8c8c;
 }
 
 /*homepage background*/
