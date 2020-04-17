@@ -117,7 +117,7 @@
 /*about page - typing effect*/
 .typing {
     position: absolute;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     left: 30vw;
     top: 20vh;
     width: 60vw;
@@ -127,8 +127,9 @@
 
 .typing p {
     font-size: 3vh;
-    color: #999999;
+    color: #828282;
     width: 60vw;
+    font-family: 'Montserrat', sans-serif;
     line-height: 5vh;
     border-bottom: 2px solid #6e6e6e;
     padding-bottom: 10px;
@@ -182,7 +183,7 @@
     padding: 0 3vw;
     color: #FFFFFF;
     text-decoration: none;
-    font: 3vh 'Open Sans', Impact;
+    font: 3vh 'Open Sans', sans-serif;
     font-weight: bold;
     top: 15vh;
     left: 0.25vw;
@@ -221,7 +222,7 @@
     left: 0;
     top: 0;
     width: 100vw;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Montserrat', Impact;
     z-index: -1;
 }
 
@@ -231,7 +232,7 @@
     left: 0;
     top: 0;
     width: 100vw;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Montserrat', Impact;
     z-index: -1;
 }
 
@@ -241,7 +242,7 @@
     left: 0;
     top: 0;
     width: 100vw;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Montserrat', Impact;
     z-index: -1;
 }
 
@@ -275,7 +276,7 @@ body {
     position: relative;
     left: 25vw;
     top: 7vh;
-    font-size: 4vh;
+    font-size: 3.8vh;
 }
 
 .aboutsection img {
@@ -298,7 +299,7 @@ body {
 .description {
     position: relative;
     font-size: 2vh;
-    color: #707070;
+    color: #616161;
     left: 7vw;
     width: 60vw;
     padding-bottom: 3vh;
@@ -313,7 +314,7 @@ body {
 
 .aboutsection ul {
     font-size: 2vh;
-    color: #707070;
+    color: #616161;
 }
 
 /*skill bars*/
