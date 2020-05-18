@@ -154,32 +154,32 @@
 }
 
 @-webkit-keyframes color-change {
-    0% { color: #d92027; }
-    25% { color: #f4ea8e; }
-    50% { color: #f37121; }
-    75% { color: #5fdde5; }
+    0% { color: #bb3b0e; }
+    25% { color: #dd7631; }
+    50% { color: #4a9e4d; }
+    75% { color: #035aa6; }
     100% { color: #d92027; }
 }
 @-moz-keyframes color-change {
-    0% { color: red; }
-    25% { color: orange; }
-    50% { color: green; }
-    75% { color: #2f55a4; }
-    100% { color: red; }
+    0% { color: #bb3b0e; }
+    25% { color: #dd7631; }
+    50% { color: #4a9e4d; }
+    75% { color: #035aa6; }
+    100% { color: #d92027; }
 }
 @-ms-keyframes color-change {
-    0% { color: red; }
-    25% { color: orange; }
-    50% { color: green; }
-    75% { color: #2f55a4; }
-    100% { color: red; }
+    0% { color: #bb3b0e; }
+    25% { color: #dd7631; }
+    50% { color: #4a9e4d; }
+    75% { color: #035aa6; }
+    100% { color: #d92027; }
 }
 @-o-keyframes color-change {
-    0% { color: red; }
-    25% { color: orange; }
-    50% { color: green; }
-    75% { color: #2f55a4; }
-    100% { color: red; }
+    0% { color: #bb3b0e; }
+    25% { color: #dd7631; }
+    50% { color: #4a9e4d; }
+    75% { color: #035aa6; }
+    100% { color: #d92027; }
 }
 @keyframes color-change {
     0% { color: #bb3b0e; }
