@@ -146,6 +146,47 @@
     text-transform: uppercase;
     letter-spacing: 1pt;
     margin-bottom: 15px;
+    -webkit-animation: color-change 8s infinite;
+    -moz-animation: color-change 8s infinite;
+    -o-animation: color-change 8s infinite;
+    -ms-animation: color-change 8s infinite;
+    animation: color-change 8s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: #d92027; }
+    25% { color: #f4ea8e; }
+    50% { color: #f37121; }
+    75% { color: #5fdde5; }
+    100% { color: #d92027; }
+}
+@-moz-keyframes color-change {
+    0% { color: red; }
+    25% { color: orange; }
+    50% { color: green; }
+    75% { color: #2f55a4; }
+    100% { color: red; }
+}
+@-ms-keyframes color-change {
+    0% { color: red; }
+    25% { color: orange; }
+    50% { color: green; }
+    75% { color: #2f55a4; }
+    100% { color: red; }
+}
+@-o-keyframes color-change {
+    0% { color: red; }
+    25% { color: orange; }
+    50% { color: green; }
+    75% { color: #2f55a4; }
+    100% { color: red; }
+}
+@keyframes color-change {
+    0% { color: #bb3b0e; }
+    25% { color: #dd7631; }
+    50% { color: #4a9e4d; }
+    75% { color: #035aa6; }
+    100% { color: #d92027; }
 }
 
 .contact-logos {
