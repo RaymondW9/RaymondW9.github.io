@@ -146,42 +146,42 @@
     text-transform: uppercase;
     letter-spacing: 1pt;
     margin-bottom: 15px;
-    -webkit-animation: color-change 8s infinite;
-    -moz-animation: color-change 8s infinite;
-    -o-animation: color-change 8s infinite;
-    -ms-animation: color-change 8s infinite;
-    animation: color-change 8s infinite;
+    -webkit-animation: colorchange 8s infinite;
+    -moz-animation: colorchange 8s infinite;
+    -o-animation: colorchange 8s infinite;
+    -ms-animation: colorchange 8s infinite;
+    animation: colorchange 8s infinite;
 }
 
-@-webkit-keyframes color-change {
+@-webkit-keyframes colorchange {
     0% { color: #bb3b0e; }
     25% { color: #dd7631; }
     50% { color: #4a9e4d; }
     75% { color: #035aa6; }
     100% { color: #d92027; }
 }
-@-moz-keyframes color-change {
+@-moz-keyframes colorchange {
     0% { color: #bb3b0e; }
     25% { color: #dd7631; }
     50% { color: #4a9e4d; }
     75% { color: #035aa6; }
     100% { color: #d92027; }
 }
-@-ms-keyframes color-change {
+@-ms-keyframes colorchange {
     0% { color: #bb3b0e; }
     25% { color: #dd7631; }
     50% { color: #4a9e4d; }
     75% { color: #035aa6; }
     100% { color: #d92027; }
 }
-@-o-keyframes color-change {
+@-o-keyframes colorchange {
     0% { color: #bb3b0e; }
     25% { color: #dd7631; }
     50% { color: #4a9e4d; }
     75% { color: #035aa6; }
     100% { color: #d92027; }
 }
-@keyframes color-change {
+@keyframes colorchange {
     0% { color: #bb3b0e; }
     25% { color: #dd7631; }
     50% { color: #4a9e4d; }
