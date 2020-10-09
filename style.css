@@ -6,6 +6,7 @@
     top: 0;
     width: 100vw;
     box-shadow: 0px 2px 4px black;
+    z-index: 2;
 }
 
 .navbar a {
@@ -217,6 +218,7 @@
     height: 100vh;
     width: 20vw;
     background: #000000;
+    z-index: 1;
 }
 
 .sidebar a {
@@ -264,7 +266,6 @@
     top: 0;
     width: 100vw;
     font-family: 'Montserrat', Impact;
-    z-index: -1;
 }
 
 #education {
@@ -274,7 +275,6 @@
     top: 0;
     width: 100vw;
     font-family: 'Montserrat', Impact;
-    z-index: -1;
 }
 
 #skills {
@@ -284,7 +284,6 @@
     top: 0;
     width: 100vw;
     font-family: 'Montserrat', Impact;
-    z-index: -1;
 }
 
 body {
@@ -325,7 +324,6 @@ body {
     height: 7vh;
     vertical-align: middle;
     padding-right: 15px;
-
 }
 
 .title {
@@ -351,6 +349,19 @@ body {
     width: 45vw;
     font-size: 2.5vh;
     color: #577b9e;
+}
+
+.aboutsection a.company {
+    color: black;
+    position: relative;
+    float: none;
+    font-size: 3.8vh;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.aboutsection a.company:hover {
+    color: #8c8c8c;
 }
 
 .aboutsection ul {
